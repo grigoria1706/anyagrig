@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | Анна Григ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background"></div>
+    
+    <div class="container">
+        <header class="header">
+            <div class="logo">🎵</div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Главная</a>
+                <a href="portfolio.html" class="nav-link">Портфолио</a>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="hero">
+                <h1>Мои работы</h1>
+                <p class="hero-subtitle">Коллекция музыкальных проектов и аранжировок</p>
+            </section>
+
+            <section class="portfolio">
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">Все работы</button>
+                    <button class="filter-btn" data-filter="orchestral">Оркестровка</button>
+                    <button class="filter-btn" data-filter="electronic">Электронная</button>
+                    <button class="filter-btn" data-filter="soundtrack">Саундтреки</button>
+                </div>
+
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="orchestral">
+                        <div class="portfolio-image"></div>
+                        <h3>Симфония №1</h3>
+                        <p>Оркестровая композиция в современном стиле</p>
+                        <button class="play-button">▶ Слушать</button>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="electronic">
+                        <div class="portfolio-image"></div>
+                        <h3>Digital Dreams</h3>
+                        <p>Электронный альбом в стиле synthwave</p>
+                        <button class="play-button">▶ Слушать</button>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="soundtrack">
+                        <div class="portfolio-image"></div>
+                        <h3>Документальный фильм</h3>
+                        <p>Музыка для научно-популярного кино</p>
+                        <button class="play-button">▶ Слушать</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
