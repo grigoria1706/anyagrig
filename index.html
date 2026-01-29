@@ -3,140 +3,230 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Анна Григ | Композитор-аранжировщик</title>
+    <title>Аня Григ | Композитор-аранжировщик</title>
+
+    <meta name="description" content="Анна Григ — композитор и аранжировщик. Музыка для кино, театра и мультфильмов.">
+
     <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <div class="background"></div>
-    <div class="background-overlay" 
-     style="background-image: url('sound.png'); opacity: 0.3;">
-</div>
-    <div class="container">
-        <header class="header">
-            <div class="logo">🎹</div>
-            <nav class="nav">
-               
-            </nav>
-        </header>
 
-        <main class="main">
-            <section class="hero">
-                <h1 class="hero-title">
-                    <span class="gradient-text">Композитор-аранжировщик</span><br>
-                    Аня Григ
-                </h1>
-                <p class="hero-subtitle">Представьте музыку, которая не просто звучит на фоне, 
-                    а становится полноправным героем вашего проекта. 
-                    Она рассказывает историю, усиливает драматургию, 
-                    вызывает мурашки у слушателей и создает нужные эмоции. </p>
-                <div class="hero-buttons">
-                    <a href="portfolio.html" class="cta-button">
-                        <span>Слушать работы</span>
-                        <div class="button-background"></div>
-                    </a>
-                </div>
-            </section>
+<div class="background"></div>
+<div class="background-overlay"></div>
 
-            <section class="about" id="about">
-                <h2>Обо мне</h2>
-                <div class="about-content">
-                    <div class="about-text">
-                        <p>Моя специальность — композитор и саунд-продюсер полного цикла. Здесь создаются уникальные аудиоландшафтовы для спектаклей, мюзиклов, мультфильмов и ключевых моментов жизни. Стремлюсь погрузиться в вашу идею, чтобы создать звуковую дорожку, которая идеально передаст её суть.</p>
-                    </div>
-            </section>
+<div class="container">
 
-            <section class="about" id="about">
-                 <h2>Виды работ</h2>
-                        <div class="skills">
-                            <div class="skill-tag">Оркестровка</div>
-                            <div class="skill-tag">Саунд-дизайн</div>
-                            <div class="skill-tag">Аранжировка</div>
-                            <div class="skill-tag">Сведение</div>
-                            <div class="skill-tag">Подбор нот</div>
-                            <div class="skill-tag">Музыка для кино</div>
-                            <div class="skill-tag">Оркестровка</div>
-                        </div>
-            </section>
+<header class="header">
+    <div class="logo">🎹</div>
+    
+    <nav class="nav">
+        <a href="#about" class="nav-link">Обо мне</a>
+        <a href="#services" class="nav-link">Услуги</a>
+        <a href="#genres" class="nav-link">Жанры</a>
+        <a href="#portfolio" class="nav-link">Портфолио</a>
+    </nav>
+</header>
 
-            <section class="about" id="about">
-                 <h2>Жанры</h2>
-                        <div class="skills">
-                            <div class="skill-tag">Эстрадная</div>
-                            <div class="skill-tag">Поп</div>
-                            <div class="skill-tag">Рок</div>
-                            <div class="skill-tag">Традиционная</div>
-                            <div class="skill-tag">Экшн</div>
-                            <div class="skill-tag">Lo-Fi</div>
-                            <div class="skill-tag">Электронная</div>
-                        </div>
-                </div>
-            </section>
 
-            
+<!-- HERO -->
+<section class="hero">
+    <h1 class="hero-title">
+    <span class="title-role">Композитор-аранжировщик</span><br>
+    <span class="title-name">Анна Григ</span>
+</h1>
 
-            <section class="featured-projects">
-                <h2>Портфолио</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-image"  
-                        style="background:  linear-gradient(rgba(169, 1, 1, 0.5), rgba(178, 39, 39, 0.5)), url('kino.jpg') center/cover; background-blend-mode: multiply;"></div>
-                        <h3>Музыка для кино</h3>
-                        <p>Для передачи атмосферы и нужных эмоций</p>
-                        <button class="play-button" data-audio="audio1">▶ Осторожно, опасность!</button>
-                        
-                    </div>
-                        
-                    <div class="project-card">
-                        <div class="project-image"  
-                        style="background: 
-                        linear-gradient(rgba(169, 1, 1, 0.5), rgba(178, 39, 39, 0.5)),
-                        url('MTB.jpg') center/cover;
-                        background-blend-mode: multiply;"></div>
-                        <h3>Экстрим</h3>
-                        <p>Аудиоландшафт для кино, влогов, документальных и спортивных фильмов</p>
-                        <button class="play-button" data-audio="audio2">▶ Экстрим</button>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-image" 
-                        style="background: 
-                        linear-gradient(rgba(169, 1, 1, 0.5), rgba(178, 39, 39, 0.5)),
-                        url('Япония фото.jpg') center/cover;
-                        background-blend-mode: multiply;"></div>
-                        <h3>Японская музыка</h3>
-                        <p>Музыка с использованием народных инструментов. Использована в мультиапликационном фильме.</p>
-                        <button class="play-button" data-audio="audio4">▶ Japan</button>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-image" 
-                        style="background: 
-                        linear-gradient(rgba(169, 1, 1, 0.5), rgba(178, 39, 39, 0.5)),
-                        url('симфония.jpg') center/cover;
-                        background-blend-mode: multiply;"></div>
-                        <h3>Эстрадно-оркестровая музыка</h3>
-                        <p>Дискотека 80-х? Или джазовый вечер? Аранжировки произведений в оркестровом исполнении.</p>
-                        <button class="play-button" data-audio="audio5">▶ Слушать</button>
-                        <button class="play-button" data-audio="audio6">▶ Слушать</button>
-                        <button class="play-button" data-audio="audio7">▶ Слушать</button>
-                    </div>
-                </div>
-            </section>
-        </main>
 
-        <footer class="footer">
-            <p> 2025 </p>
-        </footer>
-    </div>
+    <p class="hero-subtitle">
+        Представьте музыку, которая не просто звучит на фоне, а становится полноправным героем вашего проекта. Она рассказывает историю, усиливает драматургию, вызывает мурашки у слушателей и создает нужные эмоции.
+    </p>
 
     
-    <audio id="audio1" src="ATT.mp3" preload="metadata"></audio>
-    <audio id="audio2" src="Extrime.mp3" preload="metadata"></audio>
-    <audio id="audio4" src="Japan.mp3" preload="metadata"></audio>
-    <audio id="audio5" src="Jazz.mp3" preload="metadata"></audio>
-    <audio id="audio6" src="Disco.mp3" preload="metadata"></audio>
-    <audio id="audio7" src="Fish.mp3" preload="metadata"></audio>
-    <audio id="audio8" src="Japan.mp3" preload="metadata"></audio>
+</section>
 
-    <script src="script.js"></script>
+<!-- ABOUT -->
+<section class="about" id="about">
+    <h2>Обо мне</h2>
+
+    <div class="about-text">
+        <p>
+            Моя специальность — композитор и саунд-продюсер полного цикла. Более 8 лет я создаю уникальные аудиоландшафты для спектаклей, мюзиклов, мультфильмов и ключевых моментов жизни. Стремлюсь погрузиться в вашу идею, чтобы создать звуковую дорожку, которая идеально передаст её суть.
+        </p>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section class="about" id="services">
+    <h2>Услуги</h2>
+
+    <div class="music-blocks">
+         <div class="music-card">
+    <h3>Музыка для визуальных проектов</h3>
+    <p>кино и сериалы</p>
+    <p>видеоигры</p>
+    <p>реклама</p>
+    <p>анимация</p>
+    <p>подкасты и медиа</p>
+</div>
+
+<div class="music-card">
+    <h3>Аранжировка и оркестровка</h3>
+    <p>симфонический оркестр</p>
+    <p>камерный ансамбль</p>
+    <p>поп-группа</p>
+    <p>электронная аранжировка</p>
+    <p>хоровая аранжировка</p>
+    <p>партитуры</p>
+    <p>оформление</p>
+</div>
+
+<div class="music-card">
+    <h3>Саунд-дизайн и звуковое оформление</h3>
+    <p>кино и сериалы</p>
+    <p>видеоигры</p>
+    <p>фоли-запись</p>
+    <p>атмосфера и эмбиент</p>
+    <p>дизайн звуков интерфейса</p>
+    <p>соник-брендинг</p>
+</div>
+
+<div class="music-card">
+    <h3>Продакшен и звукорежиссура</h3>
+    <p>продюсирование</p>
+    <p>сведение треков</p>
+    <p>мастеринг</p>
+    <p>аудиомонтаж</p>
+</div>
+
+<div class="music-card">
+    <h3>Консультации</h3>
+    <p>консалтинг</p>
+    <p>коллаборации</p>
+    <p>обучение</p>
+    <p>аутсорсинг задач</p>
+</div>
+    </div>
+</section>
+
+<!-- GENRES -->
+<section class="about" id="genres">
+    <h2>Жанры</h2>
+
+    <div class="skills">
+        <span class="skill-tag">Неоклассика</span>
+        <span class="skill-tag">Синтвейв</span>
+        <span class="skill-tag">Лоу-фай</span>
+        <span class="skill-tag">Эмбиент</span>
+        <span class="skill-tag">Электро-поп</span>
+        <span class="skill-tag">Пост-рок</span>
+        <span class="skill-tag">Киберпанк</span>
+        <span class="skill-tag">Фэнтези</span>
+        <span class="skill-tag">Индастриал</span>
+        <span class="skill-tag">Электро-хаус</span>
+        <span class="skill-tag">Хип-хоп</span>
+        <span class="skill-tag">Ретро-фанк</span>
+        <span class="skill-tag">Нео-соул</span>
+        <span class="skill-tag">Акустическая инди</span>
+        <span class="skill-tag">Альтернативный рок</span>
+        <span class="skill-tag">Классическая музыка</span>
+        <span class="skill-tag">Джаз</span>
+        <span class="skill-tag">Лаунж</span>
+        <span class="skill-tag">Тек-хаус</span>
+        <span class="skill-tag">Драм-н-бейс</span>
+        <span class="skill-tag">Трип-хоп</span>
+        <span class="skill-tag">Прогрессив-рок</span>
+        <span class="skill-tag">Фолк-электроника</span>
+        <span class="skill-tag">Шансон</span>
+
+
+    </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="featured-projects" id="portfolio">
+    <h2>Портфолио</h2>
+
+    <div class="projects-grid">
+
+        <div class="project-card">
+            <div class="project-image img-cinema"></div>
+            <h3>Музыка для кино</h3>
+            <p>Передача атмосферы и эмоций.</p>
+            <button class="play-button" data-audio="tethys">▶ Слушать</button>
+            <button class="play-button" data-audio="bond">▶ Слушать</button>
+            <button class="play-button" data-audio="att">▶ Слушать</button>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image img-extreme"></div>
+            <h3>Экстрим</h3>
+            <p>Звуковое оформление для документальных и спортивных фильмов.</p>
+            <button class="play-button" data-audio="extrime">▶ Слушать</button>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image img-orchestra"></div>
+            <h3>Эстрадно-оркестровая</h3>
+            <p>Оркестровые симфонические и эстрадные аранжировки.</p>
+            <button class="play-button" data-audio="jazz">▶ Слушать</button>
+            <button class="play-button" data-audio="fish">▶ Слушать</button>
+            <button class="play-button" data-audio="orc">▶ Слушать</button>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image img-japan"></div>
+            <h3>Народная музыка</h3>
+            <p>Музыка с народными инструментами.</p>
+            <button class="play-button" data-audio="japan">▶ Слушать</button>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image img-rock"></div>
+            <h3>Рок</h3>
+            <p>Варианты рока</p>
+            <button class="play-button" data-audio="rock_film">▶ Слушать</button>
+             <button class="play-button" data-audio="rock">▶ Слушать</button>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image img-game"></div>
+            <h3>Игры</h3>
+            <p>Музыка и аудиодизайн для игр</p>
+            <button class="play-button" data-audio="mine">▶ Слушать</button>
+             <button class="play-button" data-audio="mine1">▶ Слушать</button>
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <p>© 2026</p>
+</footer>
+
+</div>
+
+<!-- AUDIO -->
+<audio id="tethys" src="tethys.mp3"></audio>
+<audio id="bond" src="Bond.mp3"></audio>
+<audio id="att" src="ATT.mp3"></audio>
+<audio id="exttrime" src="Extrime.mp3"></audio>
+<audio id="jazz" src="jazz.mp3"></audio>
+<audio id="fish" src="Fish.mp3"></audio>
+<audio id="rock_film" src="rock_film.mp3"></audio>
+<audio id="rock" src="rock.mp3"></audio>
+<audio id="mine" src="mine.mp3"></audio>
+<audio id="mine1" src="mine1.mp3"></audio>
+<audio id="japan" src="Japan.mp3"></audio>
+<audio id="orc" src="orc.mp3"></audio>
+
+<script src="script.js"></script>
+
 </body>
 </html>
